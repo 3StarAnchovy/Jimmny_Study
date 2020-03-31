@@ -1,0 +1,19 @@
+javax swing
+awt
+
+gui의 요소 ->버튼 텍스트 = 컴포넌트
+
+컴포넌트가 들어가기 위한 창 = 컨테이너 =JFrame
+
+
+컴포넌트 -------------------------------------
+setTitle() -> 위에 제목
+setSize()
+setVisible() ->true,false ->가시성
+setDefaultCloseOperation() -> 종료
+
+
+컨테이너 --------------------------------------
+import java.awt;
+Container c=getContentPane(); //컨테이너 생성
+c.setLayout(new FlowLayout()); //위치 생성, 기본위치
